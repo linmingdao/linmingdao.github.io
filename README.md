@@ -1,4 +1,4 @@
-## changelog
+## 更新日志
 
 - <font color="#f54e1b" size="2">重新编辑了首页内容</font>
 - <font color="#f54e1b" size="2">提交了笔记的目录大纲</font>
