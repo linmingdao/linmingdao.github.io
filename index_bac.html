@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>linmingdao's blog</title>
+    <style type="text/css">
+      body {
+        background: #222;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      canvas {
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .item {
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        background-color: #2929299e;
+        z-index: 100;
+        filter: blur(20px);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px 1px #000;
+        color: #fff;
+        font-size: 20px;
+        font-weight: lighter;
+        line-height: 35px;
+        overflow: hidden;
+      }
+
+      .item::before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: -20px;
+        filter: blur(20px);
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="c" width="1920" height="1080">
+      Your browser does not support the canvas element.
+    </canvas>
+    <div class="item">Your browser does not support the canvas element.</div>
+  </body>
+  <script>
+    function u(t) {
+      for (
+        k = i = 802;
+        i;
+        x.fillRect(
+          b ? 940 - r / 2 - ((e ? e * 2 - 3 : S(m)) * r) / 0.8 : 2e3 * S(i),
+          b ? 640 + r * (!e || C(m)) : (i * 13) % k,
+          (r = i-- < k ? (b ? r : (i % 5) + 1) : 1e9),
+          r
+        )
+      )
+        (m = (i + t * 120) ^ k),
+          (r = 1e7 / i / i),
+          (e = m % 3),
+          (b = i < 600),
+          (x.fillStyle = R(
+            (v = b ? i / 3 + S((m *= m)) * 29 : i < k ? k : 0),
+            v,
+            v
+          ));
+    }
+
+    let time = 0;
+    let frame = 0;
+    let FPS = 960;
+    let x = c.getContext("2d");
+    let S = Math.sin;
+    let C = Math.cos;
+    let T = Math.tan;
+    let R = (r, g, b, a = 1) => `rgba(${r | 0},${g | 0},${b | 0},${a})`;
+
+    let loop = (frameTime) => {
+      requestAnimationFrame(loop);
+      time = frame++ / FPS;
+      if ((time * FPS) | (0 == frame - 2)) time += 1e-6;
+      u(time);
+      {
+        c.style.width = c.style.height = "";
+        const aspect = c.width / c.height;
+        if (aspect > innerWidth / innerHeight) c.style.height = "100%";
+        else c.style.width = "100%";
+      }
+    };
+
+    loop();
+  </script>
+</html>
