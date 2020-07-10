@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+## Welcome My GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/linmingdao/linmingdao.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+内容待填充
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 公告
 
-### Markdown
+- <font color="#159957">重新编辑了首页内容</font>
+- <font color="#159957">提交了笔记的目录大纲</font>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 笔记分类
 
-```markdown
-Syntax highlighted code block
+<details>
+  <summary>个人项目</summary>
+  <p><a href="https://github.com/linmingdao/v-bonjure" target="_blank">v-bonjure，基于 Vue 的前端脚手架</a></p>
+  <p><a href="https://github.com/linmingdao/SVGraffiti" target="_blank">SVGraffiti，基于 SVG 的涂鸦控件</a></p>
+</details>
 
-# Header 1
-## Header 2
-### Header 3
+<details>
+  <summary>前端相关笔记</summary>
+</details>
 
-- Bulleted
-- List
+<details>
+  <summary>后端相关笔记</summary>
+</details>
 
-1. Numbered
-2. List
+<details>
+  <summary>运维相关笔记</summary>
+</details>
 
-**Bold** and _Italic_ and `Code` text
+<details>
+  <summary>一些生活感想</summary>
+</details>
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/linmingdao/linmingdao.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<details>
+  <summary>一些个人爱好 ( 科幻，军武，硬件，手办，模型，艺术，and so on )</summary>
+</details>
