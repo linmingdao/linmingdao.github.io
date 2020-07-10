@@ -1,13 +1,9 @@
-## Welcome My GitHub Pages
+## changelog
 
-内容待填充
+- <font color="#f54e1b" size="2">重新编辑了首页内容</font>
+- <font color="#f54e1b" size="2">提交了笔记的目录大纲</font>
 
-### 公告
-
-- <font color="#159957">重新编辑了首页内容</font>
-- <font color="#159957">提交了笔记的目录大纲</font>
-
-### 笔记分类
+## 笔记分类
 
 <details>
   <summary>个人项目</summary>
